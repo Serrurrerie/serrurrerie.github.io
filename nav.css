@@ -1,0 +1,78 @@
+header{
+    position: relative; /* o elemento é posicionado relativo á sua posição normal, como a posição normal é 0px em todas as direções, fica no mesmo sítio (esta linha é para não haver chance de desformatar em ecrâs mais densos)*/
+    width: 100%; /* define a largura do elemento para ser da largura total*/
+    background-color: rgb(255, 167, 140); /* define a cor de fundo do elemento*/
+    display: flex; /* permite que os elementos dentro 'flexionem' (acabam por ficar em linha) */
+    justify-content: space-around; /* justifica o conteudo e faz com que o espaço á volta de cada elemento seja o mesmo*/
+    margin: auto; /* margens automáticas, faz com que fique á mesma distância da esquerda e da dierita (neste caso também ajuda a não desformatar em dispositivos com telas densas)*/
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none; 
+    margin: auto;
+    /* coloca os elementos da lista em linha e sem pontos*/
+}
+
+.nav-li{    
+    text-decoration: none;
+    color: #f5f5f5;
+    margin: 5px;
+    /* remove a decoração dos hyperlinks e muda a cor do texto, adiciona também uma pequena margem para dar espaço */
+}
+
+.nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    /* é um elemento para separar os outros elementos do menu das bordas do ecrã, daí os 85% de largura. */
+}
+
+.logo-img{
+    width: 25px;
+    height: auto;
+    margin: 2px;
+}
+
+.logo{
+    display: flex;
+    flex-grow: 2;
+    margin: 0px;
+    color: #f5f5f5;
+    /* o flex-grow faz com que o logotipo ocupe duas partes e que o resto ocupe uma */
+}
+
+
+
+/*RODAPÉ*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.wrapper {
+    min-height: 100%;
+  
+    /* Igual á altura do rodapé */
+    /* mas a considerar margens inferiores do último elemento */
+    margin-bottom: -50px;
+  }
+.footer, .push {
+    height: 50px;
+  }
+
+.footer{
+      background-color: rgb(29, 29, 29);
+  }
+
+.footer-text-div{
+    background-color: rgb(29, 29, 29);
+    display: inline-block;
+    width: 100%;
+}
+.footer-text{
+    position: relative;
+    text-align: center;
+    color: white;
+}

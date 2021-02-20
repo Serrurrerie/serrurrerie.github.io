@@ -1,0 +1,41 @@
+body{
+    font-family: Poppins;
+    margin: 0px;
+}
+
+video{
+    margin-top: 1%;
+    width: 60%;
+}
+
+.titulo-video{
+    margin-top: 2%;
+}
+
+.desc-video{
+    margin-bottom: 15%;
+}
+
+center{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+audio{
+    margin-bottom: 10%;
+}
+
+table, th, td {
+    text-align: center; 
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin-bottom: 120px;
+  }
+
+.titulos-tabela{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/* formatações básicas para os elementos da página */

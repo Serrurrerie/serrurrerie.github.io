@@ -1,0 +1,36 @@
+/* media query para dispositivos com ecrãs de alta densidade */
+@media only screen and (-moz-min-device-pixel-ratio: 2), 
+only screen and (-o-min-device-pixel-ratio: 2/1), 
+only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  /* reduzir os tamanhos de algumas coisas */
+.perfume{ 
+    width: 85%;
+    margin-top: 7%;
+}
+
+video{
+    width: 85%;
+    margin-top: 7%;
+}
+
+.titulo-video{
+    margin-top: 7%;
+
+}
+
+.logo{
+    font-size: 5px;
+}
+
+.titulo{
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+.espaco-fim{
+    margin: 20%;
+}
+
+}

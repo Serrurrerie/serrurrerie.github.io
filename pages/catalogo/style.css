@@ -1,0 +1,121 @@
+body{
+    font-family: Poppins;
+    margin: 0px;
+}
+
+.conteudo{
+    margin: 5%;
+}
+
+.titulo{
+    font-size: 20px;
+}
+
+.horario{
+    margin-top: 5px;
+}
+
+.espaco-fim{
+    margin: 5%;
+}
+
+.fragancias{
+    display: flex;
+    background-color: #ffded4;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5%;
+    flex: 1;
+}
+
+iframe{
+    flex: 1;
+    padding-left: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.frametext{
+    overflow: hidden;
+
+}
+
+.frametext p{
+    margin-bottom: 600px;
+
+}
+
+.frametext h3{
+    margin-top: 600px;
+
+}
+
+.formulario-compra legend{
+    font-weight: bold;
+}
+
+.encomendar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.escolhas{
+    margin: 1%;
+    margin-right: 5%;
+    flex: 1;
+}
+
+.escolhas img{
+    cursor: pointer;
+}
+
+figure{
+    float:left;
+    margin: 0px;
+    padding: 5px;
+}
+
+.total{
+    margin: 1%;
+    flex: 1;
+}
+
+map area{
+    outline: none;
+}
+
+.observacoes{
+    width: 99%;
+}
+
+.perfume{
+    margin-left: 5%;
+    width: 55px;
+}
+
+#listaprod{
+    background-color: #ffded4;
+}
+
+input{
+    float: right;
+    clear: both;
+}
+
+.envio{
+    margin-top: 25px;
+    float: left;
+}
+
+.envio input{
+    float: left;
+}
+/* formatações básicas para os elementos da página */

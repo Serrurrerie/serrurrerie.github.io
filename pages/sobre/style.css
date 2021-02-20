@@ -1,0 +1,26 @@
+body{
+    font-family: Poppins;
+    margin: 0px;
+}
+
+.texto{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.titulo{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.horario{
+    margin-top: 5px;
+}
+
+.espaco-fim{
+    margin: 5%;
+}
+/* formatações básicas para os elementos da página */

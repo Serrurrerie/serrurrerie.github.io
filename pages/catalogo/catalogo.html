@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+		<title>Catálogo - Perfumaria Serrurerie</title>
+		<link href="style.css" type="text/css" rel="Stylesheet">
+        <script src="script.js"></script>
+        <link href="../../nav.css" type="text/css" rel="Stylesheet">
+        <link href="../../mobile_view.css" type="text/css" rel="Stylesheet">
+
+	</head>
+
+	<body>
+        <div class="wrapper">
+
+            <header>
+                    <div class="nav"> <!-- menu de navegação -->
+                        <div class="logo">
+                            <img class="logo-img" src="../../media/logo/perfume.svg" alt="Logo">
+                            <h1>Serrurerie</h1>
+                        </div>
+                        <ul class="nav-ul">
+
+                            <li><a class="nav-li" href="../../index.html">Início</a></li>
+
+                            <li><a class="nav-li" href="catalogo.html">Catálogo</a></li>
+
+                            <li><a class="nav-li" href="../galeria/galeria.html">Galeria</a></li>
+
+                            <li><a class="nav-li" href="../sobre/sobre.html">Sobre</a></li>
+                        
+                        </ul>
+                </div>
+            </header>
+
+            <div class="conteudo">
+
+                <h3 class="titulo">Catálogo</h3>
+
+                <p class="texto">Veja aqui a nossa coleção. Pressione um perfume para ler mais...</p>
+                
+                <div class="fragancias">
+
+                    <div class="imagens">
+                        <img src="../../media/img/escatol.png" usemap="#escatol">
+
+                        <map name="escatol">
+                            <area target="frame" href="frame.html#escatol" coords="88,194,198,187,200,71,160,65,160,19,147,15,126,15,113,19,114,65,85,66,73,71,74,186" shape="poly">
+                        </map>
+
+
+                        <img src="../../media/img/etanol.png" usemap="#etanol">
+
+                        <map name="etanol">
+                            <area target="frame" href="frame.html#etanol" coords="57,215,144,215,144,107,118,107,118,83,132,83,132,64,73,64,73,83,87,83,87,107,57,107" shape="poly">
+                        </map>
+
+
+                        <img src="../../media/img/metano.png" usemap="#metano">
+
+                        <map name="metano">
+                            <area target="frame" href="frame.html#metano" coords="87,217,173,218,174,109,146,109,147,87,162,87,162,70,103,69,102,86,116,86,116,108,90,108" shape="poly">
+                        </map>
+
+                    </div>
+
+                    <div class="frame"></div>
+
+                        <iframe name="frame" src="frame.html" frameborder="0"></iframe>
+                </div>
+
+                <div class="comprar">
+
+                    <h3>Compre Já</h3>
+                    <!--Neste caso o form tem mailto mas o ideal seria um backend para receber os dados e inseri-los numa base de dados (serve apenas de exemplo)-->
+                    <form action="mailto:encomendas@serrurrerie.pt" method="post" class="formulario-compra">
+
+                        <fieldset class="encomendar" >
+                            <legend>Encomendar</legend>
+
+                                <div class="escolhas">
+
+                                    <fieldset>
+                                        <legend>Escolha o Produto</legend>
+                                        <figure>
+                                            <img class="produtos" src="../../media/img/escatol_mini.png" onclick="adicionar(`escatol`)">
+                                            <figcaption>Escatol</figcaption>
+                                        </figure>
+
+                                        <figure>
+                                            <img class="produtos" src="../../media/img/metano_mini.png" onclick="adicionar(`metano`)">
+                                            <figcaption>Metano</figcaption>
+                                        </figure>
+
+                                        <figure>
+                                            <img class="produtos" src="../../media/img/etanol_mini.png" onclick="adicionar(`etanol`)">
+                                            <figcaption>Etanol</figcaption>
+                                        </figure>
+                                    </fieldset>
+
+                                </div>
+
+                                <div class="total">
+
+                                    <fieldset>
+                                        <legend>Total</legend>
+                                        <div id="listaprod"></div>
+                                        <div><br>Total: <input type="text" type="number" id="total" name="total" readonly></div>
+                                    </fieldset>
+
+                                    <fieldset>
+                                        <legend>Observações</legend>
+                                        <textarea class="observacoes" name="observacoes" cols="30" rows="10"></textarea>
+                                    </fieldset>
+
+                                    <div class="envio">
+
+                                        <input type="checkbox" id="expresso" name="expresso" >
+                                        <label for="expresso">Envio Expresso (+ 2,99€)</label>
+
+                                    </div>
+
+                                    <input type="submit">
+
+                                </div>
+
+                        </fieldset>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="espaco-fim"></div>
+
+        <div class="push"></div>
+    </div>
+        <footer class="footer">
+            <div class="footer-text-div">
+                <p class="footer-text">Proudly By: João Vieira</p>
+            </div> 
+        </footer>
+	</body>
+</html>
